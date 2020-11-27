@@ -1,0 +1,22 @@
+.todo {
+  display: flex;
+  width: 500px;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 2rem;
+}
+
+.content-todo {
+  width: 95%;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.delete-todo {
+  width: 5%;
+}
+
+.delete-todo span {
+  cursor: pointer;
+}
