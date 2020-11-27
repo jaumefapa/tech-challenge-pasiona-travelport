@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <p className="title">TO DO LIST</p>
+      <header className="title">TO DO LIST</header>
       <FormCreateTodo createTodo={createTodo} />
       <TodoList todos={todos} deleteTodo={deleteTodo} />
     </div>
