@@ -7,7 +7,11 @@ const Todo = ({ todo, deleteTodo }) => {
         <div>{todo.title}</div>
       </div>
       <div className="delete-todo">
-        <span className="material-icons" onClick={() => deleteTodo(todo.id)}>
+        <span
+          className="material-icons"
+          onClick={() => deleteTodo(todo.id)}
+          data-testid={`${todo.title} - delete`}
+        >
           delete
         </span>
       </div>
